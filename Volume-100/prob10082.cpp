@@ -16,7 +16,7 @@ int main()
   rows.push_back(vector<char>(first_row, first_row + sizeof(first_row) / sizeof(char)));
   rows.push_back(vector<char>(second_row, second_row + sizeof(second_row) / sizeof(char)));
   rows.push_back(vector<char>(third_row, third_row + sizeof(third_row) / sizeof(char)));
-  rows.push_back(vector<char>(fourth_row, fourth_row + sizeof(third_row) / sizeof(char)));
+  rows.push_back(vector<char>(fourth_row, fourth_row + sizeof(fourth_row) / sizeof(char)));
 
   vector<map<char, int> > char_to_int_maps(rows.size(), map<char, int>());
 
