@@ -43,10 +43,6 @@ void Backtrack(int col)
   }
 }
 
-void CopySolution(int *rows, int solution_index)
-{
-}
-
 int main()
 {
   int boards[NUM_ROWS + 1][NUM_COLS + 1], max;
