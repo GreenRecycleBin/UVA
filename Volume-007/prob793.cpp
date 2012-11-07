@@ -42,7 +42,7 @@ int main()
     for (int i = 0, c, x, y; (c = getchar()) != '\n' && c != EOF;) {
       scanf("%d %d", &x, &y);
 
-      switch(c) {
+      switch (c) {
         case 'c':
           UnionSet(set, x - 1, y - 1);
 
