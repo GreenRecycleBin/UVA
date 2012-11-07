@@ -29,7 +29,7 @@ int main()
   string input;
   int id, interval;
 
-  while (cin >> input && input.size() > 1) {
+  while (cin >> input && input != "#") {
     scanf("%d %d", &id, &interval);
     pq.push(ii(id, interval));
     intervals[id] = interval;
