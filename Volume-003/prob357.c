@@ -24,7 +24,7 @@ long GetNumberOfWaysToMakeChange(int n)
     }
   }
 
-  return matrix[5][n];
+  return matrix[NUM_DENOMINATORS][n];
 }
 
 int main()
